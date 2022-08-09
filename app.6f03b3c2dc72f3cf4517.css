@@ -134,6 +134,33 @@ body {
     color: antiquewhite;
 }
 
+.svg-container {
+    /* display: flex;
+    justify-content: end; */
+    position: relative;
+    width: 95vw;
+    height: 50px;
+
+}
+
+.svg {
+position: absolute;
+}
+
+.svg-move {
+ animation-name: move;   
+ left: 90%;
+}
+
+@keyframes move {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 90%;
+    }
+}
+
 .pagination-btns {
     position: fixed;
     bottom: 15px;
@@ -202,4 +229,3 @@ body {
     list-style-type: none;
     color: antiquewhite;
 }
-
