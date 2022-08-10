@@ -144,18 +144,19 @@ body {
 }
 
 .svg {
-position: absolute;
+    position: absolute;
 }
 
 .svg-move {
- animation-name: move;   
- left: 90%;
+    animation-name: move;
+    left: 90%;
 }
 
 @keyframes move {
     from {
         left: 0%;
     }
+
     to {
         left: 90%;
     }
